@@ -42,9 +42,9 @@ main {
 }
 
 .arrow {
-  height: 100px;
-  width: 100px;
-  margin-left: 15px;
+  height: 30%;
+  width: 5%;
+  margin-left: 20px;
 }
 
 #songs {
