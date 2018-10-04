@@ -4,13 +4,12 @@ const right = document.querySelector('.right')
 
 axios.get(baseURL)
   .then(res => {
-    console.log(res.data.data);
     let position = 20;
-    let arr = random(res.data.data.array.length)
+    let arr = random(res.data.array.length)
     for (let i = 0; i < 3; i++) {
       let img = document.createElement('img')
       img.classList.add('album')
-      img.src = res.data.data.array[arr[i]].album_art
+      img.src = res.data.array[arr[i]].album_art
       img.style.top = `${position}px`;
       right.appendChild(img)
       position += 200;

@@ -1,27 +1,82 @@
 {
-  "data": {
-    "array": [
-      {
-        "id": "1",
-        "artist": "Fleetwood Mac",
-        "album": "Rumors",
-        "songs": ["I Don't Want to Know", "Dreams", "Never Going Back Again", "Don't Stop", "Go Your Own Way", "Songbird", "The Chain", "You Make Loving Fun", "Second Hand News", "Oh Daddy", "Sold Dust Woman"],
-        "album_art": "https://www.billboard.com/files/styles/900_wide/public/media/Fleetwood-Mac-Rumours-album-covers-billboard-1000x1000.jpg"
-      },
-      {
-        "id": "2",
-        "artist": "The Beatles",
-        "album": "Abbey Road",
-        "songs": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling", "Octopus's Garden", "I Want You", "Here Comes the Sun", "Because", "You Never Give Me Your Money", "Sun King", "Mean Mr. Mustard", "Polythene Pam", "She Came in Through the Bathroom", "Golden Slumbers", "Carry That Weight", "The End"],
-        "album_art": "https://www.thebeatles.com/sites/default/files/tile/image/original_593.jpg"
-      },
-      {
-        "id": "3",
-        "artist": "Michael Jackson",
-        "album": "Bad",
-        "songs": ["Bad", "The Way You Make Me Feel", "Speed Demon", "Liberian Girl", "Just Good Friends", "Another Part of Me", "Man in the Mirror", "I Just Can't Stop Loving You", "Dirty Diana", "Smooth Criminal", "Leave Me Alone"],
-        "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Michael_Jackson_-_Bad.png/220px-Michael_Jackson_-_Bad.png"
-      }
-    ]
-  }
+  "array": [
+    {
+      "id": "1",
+      "artist": "Fleetwood Mac",
+      "album": "Rumors",
+      "songs": ["I Don't Want to Know", "Dreams", "Never Going Back Again", "Don't Stop", "Go Your Own Way", "Songbird", "The Chain", "You Make Loving Fun", "Second Hand News", "Oh Daddy", "Sold Dust Woman"],
+      "album_art": "https://www.billboard.com/files/styles/900_wide/public/media/Fleetwood-Mac-Rumours-album-covers-billboard-1000x1000.jpg"
+    },
+    {
+      "id": "2",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "songs": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling", "Octopus's Garden", "I Want You", "Here Comes the Sun", "Because", "You Never Give Me Your Money", "Sun King", "Mean Mr. Mustard", "Polythene Pam", "She Came in Through the Bathroom", "Golden Slumbers", "Carry That Weight", "The End"],
+      "album_art": "https://www.thebeatles.com/sites/default/files/tile/image/original_593.jpg"
+    },
+    {
+      "id": "3",
+      "artist": "Michael Jackson",
+      "album": "Bad",
+      "songs": ["Bad", "The Way You Make Me Feel", "Speed Demon", "Liberian Girl", "Just Good Friends", "Another Part of Me", "Man in the Mirror", "I Just Can't Stop Loving You", "Dirty Diana", "Smooth Criminal", "Leave Me Alone"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Michael_Jackson_-_Bad.png/220px-Michael_Jackson_-_Bad.png"
+    },
+    {
+      "id": "4",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "songs": ["Smells Like Teen Spirit", "In Bloom", "Come as You Are", "Breed", "Lithium", "Polly", "Territorial Pissings", "Drain You", "Lounge Act", "Stay Away", "On a Plain", "Something in the Way"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "id": "5",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "songs": ["Speak to Me / Breathe", "On the Run", "Time", "The Great Gig in the Sky", "Money", "Us and Them", "Any Colour You Like", "Brain Damage", "Eclipse"],
+      "album_art": "https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=jpg&fit=crop&crop=faces"
+    },
+    {
+      "id": "6",
+      "artist": "Led Zeppelin",
+      "album": "I",
+      "songs": ["Good Times Bad Times", "Babe I'm Gonna Leave You", "You Shook Me", "Dazed and Confused", "Your Time is Gonna Come", "Black Mountain Side", "Communication Breakdown", "I Can't Quit You Baby", "How Many More Times"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png/220px-Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png"
+    },
+    {
+      "id": "7",
+      "artist": "The Rolling Stones",
+      "album": "Sticky Fingers",
+      "songs": ["Brown Sugar", "Sway", "Wild Horses", "Can't Hear Me Knocking", "You Gotta Move", "Bitch", "I Got the Blues", "Sister Morphine", "Dead Flowers", "Moonlight Mile"],
+      "album_art": "https://images-na.ssl-images-amazon.com/images/I/51P0IbGjUyL._SY355_.jpg"
+    },
+    {
+      "id": "8",
+      "artist": "Journey",
+      "album": "Escape",
+      "songs": ["Don't Stop Believin'", "Stone in Love", "Who's Crying Now", "Keep On Runnin'", "Still They Ride", "Escape", "Lay it Down", "Dead or Alive", "Mother, Father", "Open Arms"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/JourneyEscapealbumcover.jpg/220px-JourneyEscapealbumcover.jpg"
+    },
+    {
+      "id": "9",
+      "artist": "AC/DC",
+      "album": "Back in Black",
+      "songs": ["Hells Bells", "Shoot to Thrill", "What Do You Do For Money Honey", "Givin The Dog A Bone", "Let Me Put My Love into You", "Back in Black", "You Shook Me All Night Long", "Have A Drink On Me", "Shake A Leg", "Rock and Roll Ain't Noise Pollution"],
+      "album_art": "https://images-na.ssl-images-amazon.com/images/I/61sJIfuUSiL._SY355_.jpg"
+    },
+    {
+      "id": "10",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "songs": ["Welcome to the Jungle", "It's So Easy", "Nightrain", "Out Ta Get Me", "Mr. Brownstone", "Paradise City", "My Michelle", "Think About You", "Sweet Cild O' Mine", "You're Crazy", "Anything Goes", "Rocket Queen"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg/220px-GunsnRosesAppetiteforDestructionalbumcover.jpg"
+    },
+    {
+      "id": "11",
+      "artist": "Billy Joel",
+      "album": "Piano Man",
+      "songs": ["Travelin' Prayer", "Piano Man", "Ain't No Crime", "You're My Home", "The Ballad of Billy the Kid", "Worse Comes to Worst", "Stop in Nevada", "If I Only Had the Words", "Somewhere Along the Line", "Captain Jack"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Billy_Joel_-_Piano_Man.jpg/220px-Billy_Joel_-_Piano_Man.jpg"
+    }
+
+  ]
 }
