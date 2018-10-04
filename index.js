@@ -1,18 +1,20 @@
 const chooseBtn = document.querySelector('#choose-btn')
-const baseURL = ('https://lit-fortress-6467.herokuapp.com/object')
+const baseURL = ('albums.json')
 const right = document.querySelector('.right')
 
 axios.get(baseURL)
   .then(res => {
+    console.log(res.data.data);
     let position = 20;
-    let arr = random(5)
+    let arr = random(res.data.data.array.length)
     for (let i = 0; i < 3; i++) {
       let img = document.createElement('img')
       img.classList.add('album')
-      img.src = `images/${res.data.results[arr[i]].cover_art}`
+      img.src = res.data.data.array[arr[i]].album_art
       img.style.top = `${position}px`;
       right.appendChild(img)
       position += 200;
+      console.log();
     }
   })
 

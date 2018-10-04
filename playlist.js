@@ -1,35 +1,30 @@
 const t = document.querySelector('.top')
-const baseURL = ('https://lit-fortress-6467.herokuapp.com/')
+const baseURL = ('albums.json')
 const box = document.querySelector('.box')
 const clear = document.querySelector('#clear')
 const submit = document.querySelector('#submit')
 
-axios.get(`${baseURL}object`)
+axios.get(baseURL)
 .then(res => {
-  for (let i = 0; i < res.data.results.length; i++) {
+  for (let i = 0; i < res.data.data.array.length; i++) {
     let img = document.createElement('img')
     img.classList.add('album')
-    img.src = `images/${res.data.results[i].cover_art}`
+    img.id = res.data.data.array[i].id
+    img.src = res.data.data.array[i].album_art
     t.appendChild(img)
   }
 })
 
 t.addEventListener('click', e => {
   if (e.target.tagName === 'IMG') {
-    let source = e.target.src
-    let slashAt
-    for (let i = 0; i < source.length; i++) {
-      if(source[i] === '/')
-        slashAt = i + 1
-    }
-    source = source.substring(slashAt, source.length)
-    axios.get(`${baseURL}object`)
+    axios.get(baseURL)
     .then(res => {
-      let results = res.data.results
+      let results = res.data.data.array
+      let imgId = e.target.id
       for (let i = 0; i < results.length; i++) {
-        if(source === results[i].cover_art) {
+        if(imgId === results[i].id) {
           let para = document.createElement('p')
-          para.innerText = `${results[i].artist}: ${results[i].title}`;
+          para.innerText = `${results[i].artist}: ${results[i].album}`;
           box.appendChild(para)
         }
       }
@@ -56,7 +51,7 @@ submit.addEventListener('click', e=> {
     obj[p[i].innerText.substring(0,colonAt)] = p[i].innerText.substring(colonAt + 2,p[i].innerText.length)
   }
   console.log(obj);
-  axios.post(`${baseURL}post`, obj)
+  axios.post(`https://lit-fortress-6467.herokuapp.com/post`, obj)
   .then(res => {
     console.log(res.data);
   })
