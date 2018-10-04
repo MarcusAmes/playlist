@@ -4,7 +4,6 @@ const right = document.querySelector('.right')
 
 axios.get(baseURL)
   .then(res => {
-    console.log(res);
     let position = 20;
     let arr = random(5)
     for (let i = 0; i < 3; i++) {

@@ -1,7 +1,27 @@
 {
   "data": {
     "array": [
-
+      {
+        "id": "1",
+        "artist": "Fleetwood Mac",
+        "album": "Rumors",
+        "songs": ["I Don't Want to Know", "Dreams", "Never Going Back Again", "Don't Stop", "Go Your Own Way", "Songbird", "The Chain", "You Make Loving Fun", "Second Hand News", "Oh Daddy", "Sold Dust Woman"],
+        "album_art": "https://www.billboard.com/files/styles/900_wide/public/media/Fleetwood-Mac-Rumours-album-covers-billboard-1000x1000.jpg"
+      },
+      {
+        "id": "2",
+        "artist": "The Beatles",
+        "album": "Abbey Road",
+        "songs": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling", "Octopus's Garden", "I Want You", "Here Comes the Sun", "Because", "You Never Give Me Your Money", "Sun King", "Mean Mr. Mustard", "Polythene Pam", "She Came in Through the Bathroom", "Golden Slumbers", "Carry That Weight", "The End"],
+        "album_art": "https://www.thebeatles.com/sites/default/files/tile/image/original_593.jpg"
+      },
+      {
+        "id": "3",
+        "artist": "Michael Jackson",
+        "album": "Bad",
+        "songs": ["Bad", "The Way You Make Me Feel", "Speed Demon", "Liberian Girl", "Just Good Friends", "Another Part of Me", "Man in the Mirror", "I Just Can't Stop Loving You", "Dirty Diana", "Smooth Criminal", "Leave Me Alone"],
+        "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Michael_Jackson_-_Bad.png/220px-Michael_Jackson_-_Bad.png"
+      }
     ]
   }
 }
