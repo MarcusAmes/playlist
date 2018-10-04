@@ -13,8 +13,11 @@ main {
   height: 84vh;
   background-color: lightgrey;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+}
+
+.left {
+  width: 50%;
 }
 
 .center {
@@ -26,7 +29,8 @@ main {
 .title {
   color: purple;
   font-size: 4rem;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .default-btn {
@@ -38,12 +42,25 @@ main {
 }
 
 .right {
+  width: 50%;
   height: 100%;
+  position: relative;
 }
 
 .railroad {
   height: 100%;
-  width: 50%;
+  width: 100%;
+  opacity: 0.19;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.album {
+  height: 175px;
+  width: 175px;
+  position: absolute;
+  left: 36%;
 }
 
 
