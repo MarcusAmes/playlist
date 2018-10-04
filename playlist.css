@@ -33,11 +33,22 @@ main {
 }
 
 .top {
+  height: 125px;
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  margin: 20px 0px;
+  margin-top: 20px;
   overflow-x: auto;
+}
+
+.arrow {
+  height: 100px;
+  width: 100px;
+  margin-left: 15px;
+}
+
+#songs {
+  margin-left: 80px;
 }
 
 .album {
@@ -51,9 +62,15 @@ main {
   width: 150px;
 }
 
+h4 {
+  margin: 12px 0;
+
+}
+
 .middle {
   height: 60%;
   display: flex;
+  align-items: center;
 }
 
 .box {

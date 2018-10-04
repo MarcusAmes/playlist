@@ -30,6 +30,7 @@ t.addEventListener('click', e => {
       for (let i = 0; i < results.length; i++) {
         if(imgId === results[i].id) {
           selectedImage.src = e.target.src
+          selectedImage.id = e.target.id
           albumInfo.innerText = `${results[i].artist}: ${results[i].album}`
           for (let j = 0; j < results[i].songs.length; j++) {
             let para = document.createElement('p')
@@ -48,6 +49,22 @@ box.addEventListener('click', e=> {
     para.innerText = e.target.innerText;
     finished.appendChild(para)
   }
+})
+
+selectedImage.addEventListener('click', e=> {
+  axios.get(baseURL)
+  .then(res => {
+    results = res.data.array
+    for (let i = 0; i < results.length; i++) {
+      if(e.target.id === results[i].id) {
+        for (let j = 0; j < results[i].songs.length; j++) {
+          let para = document.createElement('p')
+          para.innerText = results[i].songs[j];
+          finished.appendChild(para)
+        }
+      }
+    }
+  })
 })
 
 clear.addEventListener('click', e=> {
