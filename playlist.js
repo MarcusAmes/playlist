@@ -3,6 +3,8 @@ const baseURL = ('albums.json')
 const box = document.querySelector('.box')
 const clear = document.querySelector('#clear')
 const submit = document.querySelector('#submit')
+const selectedImage = document.querySelector('.selected-image')
+const albumInfo = document.querySelector('.album-info')
 
 axios.get(baseURL)
 .then(res => {
@@ -17,15 +19,22 @@ axios.get(baseURL)
 
 t.addEventListener('click', e => {
   if (e.target.tagName === 'IMG') {
+    while (box.firstChild) {
+      box.removeChild(box.firstChild);
+    }
     axios.get(baseURL)
     .then(res => {
       let results = res.data.data.array
       let imgId = e.target.id
       for (let i = 0; i < results.length; i++) {
         if(imgId === results[i].id) {
-          let para = document.createElement('p')
-          para.innerText = `${results[i].artist}: ${results[i].album}`;
-          box.appendChild(para)
+          selectedImage.src = e.target.src
+          albumInfo.innerText = `${results[i].artist}: ${results[i].album}`
+          for (let j = 0; j < results[i].songs.length; j++) {
+            let para = document.createElement('p')
+            para.innerText = results[i].songs[j];
+            box.appendChild(para)
+          }
         }
       }
     })
