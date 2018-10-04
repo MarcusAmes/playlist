@@ -3,7 +3,6 @@ const baseURL = ('https://lit-fortress-6467.herokuapp.com/')
 const box = document.querySelector('.box')
 const clear = document.querySelector('#clear')
 const submit = document.querySelector('#submit')
-const p = document.querySelector('p')
 
 axios.get(`${baseURL}object`)
 .then(res => {
@@ -46,12 +45,18 @@ clear.addEventListener('click', e=> {
 
 submit.addEventListener('click', e=> {
   let obj = {}
+  let p = document.querySelectorAll('p')
   for (let i = 0; i < p.length; i++) {
-    for (let j = 0; j < p[i].length; j++) {
-      p[i][j]
+    let colonAt = 0;
+    for (let j = 0; j < p[i].innerText.length; j++) {
+      if(p[i].innerText[j] === ':') {
+        colonAt = j;
+      }
     }
+    obj[p[i].innerText.substring(0,colonAt)] = p[i].innerText.substring(colonAt + 2,p[i].innerText.length)
   }
-  axios.post(`${baseURL}post`, {})
+  console.log(obj);
+  axios.post(`${baseURL}post`, obj)
   .then(res => {
     console.log(res.data);
   })
