@@ -38,7 +38,7 @@
     {
       "id": "6",
       "artist": "Led Zeppelin",
-      "album": "I",
+      "album": "Led Zeppelin",
       "songs": ["Good Times Bad Times", "Babe I'm Gonna Leave You", "You Shook Me", "Dazed and Confused", "Your Time is Gonna Come", "Black Mountain Side", "Communication Breakdown", "I Can't Quit You Baby", "How Many More Times"],
       "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png/220px-Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png"
     },
