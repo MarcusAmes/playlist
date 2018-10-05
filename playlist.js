@@ -51,6 +51,12 @@ box.addEventListener('click', e=> {
   }
 })
 
+finished.addEventListener('click', e=> {
+  if (e.target.tagName === 'P') {
+    e.target.parentNode.removeChild(e.target);
+  }
+})
+
 selectedImage.addEventListener('click', e=> {
   axios.get(baseURL)
   .then(res => {

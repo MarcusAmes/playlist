@@ -19,7 +19,7 @@ axios.get(baseURL)
 
 function random(length) {
   let arr = []
-  for (var i = 0; i < length; i++) {
+  for (let i = 0; i < length; i++) {
     arr.push(i)
   }
   let newArr = []

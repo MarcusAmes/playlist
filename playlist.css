@@ -1,6 +1,13 @@
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+
 body {
   margin: 0;
   font-size: 12pt;
+  font-family: Avenir;
 }
 
 header {
@@ -25,6 +32,10 @@ main {
   background-color: white;
   display: flex;
   justify-content: center;
+}
+
+img {
+  cursor: pointer;
 }
 
 .content {
@@ -64,7 +75,6 @@ main {
 
 h4 {
   margin: 12px 0;
-
 }
 
 .middle {
