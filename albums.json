@@ -76,7 +76,20 @@
       "album": "Piano Man",
       "songs": ["Travelin' Prayer", "Piano Man", "Ain't No Crime", "You're My Home", "The Ballad of Billy the Kid", "Worse Comes to Worst", "Stop in Nevada", "If I Only Had the Words", "Somewhere Along the Line", "Captain Jack"],
       "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Billy_Joel_-_Piano_Man.jpg/220px-Billy_Joel_-_Piano_Man.jpg"
+    },
+    {
+      "id": "12",
+      "artist": "Eagles",
+      "album": "Hotel California",
+      "songs": ["Hotel California", "New Kid in Town", "Life in the Fast Lane", "Wasted Time", "Victim of Love", "Petty Maids All in A Row", "Try and Love Again", "The Last Resort"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/220px-Hotelcalifornia.jpg"
+    },
+    {
+      "id": "13",
+      "artist": "Red Hot Chilli Peppers",
+      "album": "Californication",
+      "songs": ["Around The World", "Parallel Universe", "Scar Tissue", "Otherside", "Get On Top", "Californication", "Easily", "Parcelain", "Emit Remmus", "I Like Dirt", "This Velvet Glove", "Savior", "Purple Stain", "Right On Time", "Road Trippin'"],
+      "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/RedHotChiliPeppersCalifornication.jpg/220px-RedHotChiliPeppersCalifornication.jpg"
     }
-
   ]
 }
